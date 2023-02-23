@@ -3,6 +3,24 @@
 Created on Thu Feb 23 23:17:53 2023
 
 @author: ken3
+
+Introduction
+
+    u(t) = Kp * e(t) + Ki * ∫e(t)dt + Kd * de(t)/dt
+    where u(t) is the control signal, e(t) is the error between the setpoint 
+    and the measured variable, Kp, Ki, and Kd are the gains of 
+    the P, I, and D components, respectively, and de(t)/dt is the derivative of 
+    the error with respect to time.
+    
+    - Proportional (P) component: This component provides a response proportional to 
+    the error between the desired setpoint and the measured process variable. 
+    The P component alone can cause overshoot and oscillations in the response.
+    - Integral (I) component: This component provides a response proportional to 
+    the integral of the error over time. The I component alone can eliminate 
+    the steady-state error, but can cause a slow response.
+    - Derivative (D) component: This component provides a response proportional to 
+    the derivative of the error over time. The D component alone can improve 
+    the stability of the system and reduce overshoot and oscillations.
 """
 
 import matplotlib.pyplot as plt
