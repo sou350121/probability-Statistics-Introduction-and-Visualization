@@ -19,19 +19,34 @@ P(X = x) = p^x * (1-p)^(1-x)
 where x = 0 or 1.
 
 '''
+import scipy.stats as stats
+
+p = 0.6  # probability of success
+
+# pmf
+def bernoulli_pmf(x):
+    return stats.bernoulli.pmf(x, p)
+
+# cdf
+def bernoulli_cdf(x):
+    return stats.bernoulli.cdf(x, p)
+
 import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import bernoulli
+import numpy as np
 
-# Generate a Bernoulli random variable with probability of success p = 0.7
-rv = bernoulli(0.7)
+x = np.arange(2)  # possible values of X
 
-# Generate 1000 samples from the Bernoulli distribution
-data = rv.rvs(1000)
+# plot pmf
+plt.stem(x, bernoulli_pmf(x))
+plt.xlabel('x')
+plt.ylabel('P(X = x)')
+plt.title('Bernoulli PMF (p = 0.7)')
 
-# Plot the data using a histogram
-sns.histplot(data, kde=True)
-plt.savefig('bernoulli_histogram.png')
+# plot cdf
+plt.figure()
+plt.step(x, bernoulli_cdf(x))
+plt.xlabel('x')
+plt.ylabel('F(x)')
+plt.title('Bernoulli CDF (p = 0.7)')
 
-# Show the plot
 plt.show()
