@@ -5,18 +5,20 @@ Feel free to share anything you come across as well.
 
 # Installation
 ------------
-###  Numry, SciPy, matplotlib
+- Numry, SciPy, matplotlib
 https://scipy.org/
-###  pyScf
+- SymPy - a Python library for symbolic mathematics
+https://www.sympy.org/en/index.html
+- PyScf - the Python-based Simulations of Chemistry Framework
 https://pyscf.org/
-###  Taichi
+- Taichi
 https://www.taichi-lang.org/
 
 
 # Visualization
-## matplotlib
+-  matplotlib
 
-## Taichi 
+-  Taichi 
 ### Taichi 中文社区
 https://forum.taichi-lang.cn/
 https://forum.taichi-lang.cn/t/topic/2963
