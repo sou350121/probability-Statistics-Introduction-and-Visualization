@@ -3,6 +3,12 @@
 Created on Mon Feb 13 14:35:09 2023
 
 @author: ken3 
+
+Introduction:
+    An atomic orbital may describe at most two electrons, each with opposite spin direction
+    - Identical fermions cannot occupy the same quantum state simultaneously.
+    - This principle helps explain the electronic structure of atoms and the stability of matter.
+    - It has important implications for the behavior of materials at very low temperatures.
 """
 
 import numpy as np
@@ -41,3 +47,4 @@ print(f'energies: {p.energies}')
 print(f'angular_momenta: {p.angular_momenta}')
 print(f'magnetic_quantum_numbers: {p.magnetic_quantum_numbers}')
 print(f'spin_quantum_numbers: {p.spin_quantum_numbers}')
+
