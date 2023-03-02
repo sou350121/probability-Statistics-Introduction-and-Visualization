@@ -44,3 +44,27 @@ plt.legend()
 plt.xlabel('Time')
 plt.ylabel('Signal')
 plt.show()
+
+import numpy as np
+
+def check_lti(h, t):
+    """
+    Check if a system is LTI by comparing its impulse response at different times.
+    h: the impulse response of the system
+    t: the time vector for the impulse response
+    Returns True if the system is LTI, False otherwise.
+    """
+    # Compute the convolution of the impulse response with itself at different times
+    for i in range(len(t)):
+        for j in range(len(t)):
+            if i != j:
+                t1, t2 = t[i], t[j]
+                h1, h2 = h[i], h[j]
+                h1h2 = np.convolve(h1, h2)
+                h2h1 = np.convolve(h2, h1)
+                if not np.array_equal(h1h2, h2h1):
+                    # If the convolution results are not equal, the system is not LTI
+                    return False
+    return True
+
+print(check_lti(y,t))

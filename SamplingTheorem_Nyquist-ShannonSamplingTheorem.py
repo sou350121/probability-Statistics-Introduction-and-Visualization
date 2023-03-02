@@ -2,7 +2,19 @@
 """
 Created on Fri Feb 24 10:38:10 2023
 
-@author: Administrator
+@author: ken3
+
+Introduction:
+    also known as the Sampling Theorem or the Whittaker-Shannon interpolation formula, 
+    is a fundamental theorem in signal processing that describes 
+    the minimum sampling rate required to accurately reconstruct 
+    a continuous-time signal from its samples. It states that 
+    a continuous-time signal can be reconstructed perfectly from its samples 
+    if the sampling rate is at least twice the maximum frequency present in the signal.
+
+    x(t) = ∑n x[n]sinc((t - nT)/T)
+    where T = 1/fs is the sampling period, sinc is the sinc function, and x[n] 
+    are the samples of the continuous-time signal x(t) taken at the times nT.
 """
 
 import numpy as np
