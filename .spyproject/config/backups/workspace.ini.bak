@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = empty-project-type
-recent_files = ['README.md', 'PinskersInequality.py', 'PySCF_AbInitio_EnergyofH.py', 'GaussianShaped_FluorescenceEmissionSpectrum.py', 'temp.py', 'Statistics\\3_StatisticalInference\\FrequesntistInference_MaximumLikelihoodEstimation.py', 'Statistics\\3_StatisticalInference\\BaysianInference_MaximumAPosterioriEstimation.py', 'InformationTheory\\Entropy_Joint_Conditional_Mutual.py', 'convolution.py', 'LagrangeMultiplier.py', 'JacobianMatrix.py', 'KarushKuhnTuckerConditions.py', 'HessianMatrix.py', 'Raising_Lowering_Indices.py', 'Scalar_Vector_ValuedFunction.py', 'DivergenceTheorem.py', 'SingularitySignals.py', 'taichi_example_cornellBox.py', 'taichi_example_laplaceEquation.py', 'taichi_example_puple.py']
+recent_files = ['README.md', 'PinskersInequality.py', 'PySCF_AbInitio_EnergyofH.py', 'GaussianShaped_FluorescenceEmissionSpectrum.py', 'temp.py', 'Statistics\\3_StatisticalInference\\FrequesntistInference_MaximumLikelihoodEstimation.py', 'Statistics\\3_StatisticalInference\\BaysianInference_MaximumAPosterioriEstimation.py', 'InformationTheory\\Entropy_Joint_Conditional_Mutual.py', 'convolution.py', 'LagrangeMultiplier.py', 'JacobianMatrix.py', 'KarushKuhnTuckerConditions.py', 'HessianMatrix.py', 'Raising_Lowering_Indices.py', 'Scalar_Vector_ValuedFunction.py', 'DivergenceTheorem.py', 'SingularitySignals.py', 'taichi_example_cornellBox.py', 'taichi_example_laplaceEquation.py', 'taichi_example_puple.py', 'LinearTimeInvariantSystem.py', 'Intergral.py', 'try.py', 'Anti-aliasingFilter.py']
 
 [main]
 version = 0.2.0

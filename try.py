@@ -5,19 +5,41 @@ Created on Thu Mar  2 23:29:41 2023
 @author: Administrator
 """
 
-import sympy as sp
+import numpy as np
+import matplotlib.pyplot as plt
 
-t = sp.symbols('t', real=True)
-L, R = sp.symbols('L R', positive=True)
-tau = sp.symbols('tau')
+def anti_aliasing_filter(signal, cutoff_frequency, sampling_frequency):
+    nyquist_frequency = sampling_frequency / 2
+    normalized_cutoff_frequency = cutoff_frequency / nyquist_frequency
+    num_samples = len(signal)
+    signal_fft = np.fft.fft(signal)
+    frequencies = np.fft.fftfreq(num_samples, d=1/sampling_frequency)
+    mask = np.abs(frequencies) < normalized_cutoff_frequency
+    signal_fft[~mask] = 0
+    filtered_signal = np.fft.ifft(signal_fft)
+    return filtered_signal.real
 
-# Define signals
-e = sp.Heaviside(t) - sp.Heaviside(t-1)
-h = (1/L)*sp.exp(-R/L*t)*sp.Heaviside(t)
+# Generate a random sine wave signal
+sampling_frequency = 1000
+t = np.linspace(0, 1, sampling_frequency)
+signal = np.sin(2 * np.pi * 10 * t) + np.sin(2 * np.pi * 20 * t) + np.sin(2 * np.pi * 30 * t)
 
-# Compute convolution
-i = sp.integrate(e.subs(tau=t-sp.Symbol('t'))*h.subs({t: tau}), (tau, -sp.oo, t))
+# Apply the anti-aliasing filter
+cutoff_frequency = 15
+filtered_signal = anti_aliasing_filter(signal, cutoff_frequency, sampling_frequency)
 
-# Simplify and display result
-i = sp.simplify(i)
-sp.pprint(i)
+# Plot the original and filtered signals
+plt.subplot(211)
+plt.plot(t, signal)
+plt.title('Original Signal')
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude')
+
+plt.subplot(212)
+plt.plot(t, filtered_signal)
+plt.title('Filtered Signal')
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude')
+
+plt.tight_layout()
+plt.show()
