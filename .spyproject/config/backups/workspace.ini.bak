@@ -4,11 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-<<<<<<< HEAD
-recent_files = ['C:\\Users\\ken3\\.spyder-py3\\temp.py', 'bernoulli_RV.py']
-=======
-recent_files = ['C:\\Users\\Administrator.SC-202003272130\\.spyder-py3\\temp.py', 'probabilityDistributionFunction.py']
->>>>>>> a82780d3c0dd99a83ebaffc75915dba3861ea34d
+recent_files = ['C:\\Users\\ken3\\.spyder-py3\\temp.py', 'bernoulli_RV.py', 'PIDControl.py', 'GaussianFunction.py', 'SingularitySignals.py', 'LinearTimeInvariantSystem.py', 'convolution.py', 'SHA256.py']
 
 [main]
 version = 0.2.0
