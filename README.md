@@ -1,9 +1,24 @@
 # probability-Statistics-Introduction-and-Visualization
+Its purpose is to simplify concepts using Python's implementation and visualization, making them easy to understand and remember.
+I'm still collecting materials from my daily routine. It's like a diary for me recently.
+Feel free to share anything you come across as well.
 
+# Installation
+------------
+- Numry, SciPy, matplotlib
+https://scipy.org/
+- SymPy - a Python library for symbolic mathematics
+https://www.sympy.org/en/index.html
+- PyScf - the Python-based Simulations of Chemistry Framework
+https://pyscf.org/
+- Taichi
+https://www.taichi-lang.org/
 
 
 # Visualization
-## Taichi 
+-  matplotlib
+
+-  Taichi 
 ### Taichi 中文社区
 https://forum.taichi-lang.cn/
 https://forum.taichi-lang.cn/t/topic/2963

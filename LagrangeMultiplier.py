@@ -5,7 +5,11 @@ Created on Tue Feb 21 20:59:23 2023
 @author: ken3
 
 Introduction:
-    Lagrange multiplier
+    The Lagrange multiplier is a method for finding the maximum or minimum of 
+    a function subject to one or more constraints. It involves adding a new term, 
+    called the Lagrange multiplier, to the objective function and then finding 
+    the values of the variables that satisfy both the objective function and the constraints.
+    
     L(x,y,λ) = f(x,y) + λg(x,y)
     The variable λ representing the cost of satisfying the constraint. 
     We then take the partial derivatives of the Lagrangian with respect 

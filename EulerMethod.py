@@ -4,15 +4,14 @@ Created on Tue Feb 21 21:16:49 2023
 
 @author: ken3
 
-Introduction
+Introduction:
+    Euler method for approximating the solution to a first-order differential equation
 """
 import numpy as np
 import matplotlib.pyplot as plt
 
 def euler_method(f, x0, y0, h, n):
     """
-    Euler method for approximating the solution to a first-order differential equation
-    
     Parameters:
     f: function - the derivative of y with respect to x
     x0: float - the initial value of x
