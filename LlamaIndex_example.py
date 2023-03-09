@@ -9,7 +9,7 @@ Introduction:
 """
 
 
-api_key='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' #OpenAI API
+api_key='<your key>' #OpenAI API
 
 from langchain import PromptTemplate, HuggingFaceHub, LLMChain
 from langchain.llms import OpenAIChat
