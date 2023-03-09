@@ -1,0 +1,267 @@
+Language Is Not All You Need: Aligning Perception
+with Language Models
+Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma
+Tengchao Lv, Lei Cui, Owais Khan Mohammed, Qiang Liu, Kriti Aggarwal, Zewen Chi
+Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Weiy
+Microsoft
+https://github.com/microsoft/unilm
+What's in this picture?
+Looks like a duck.
+That¡¦s not a duck. Then 
+what¡¦s it?
+Looks more like a 
+bunny.
+Why?
+It has bunny ears.Description of three toed 
+woodpecker: It has black 
+and white stripes 
+throughout the body and a 
+yellow crown.
+Description of downy 
+woodpecker: It has white 
+spots on its black wings 
+and some red on its crown.
+Question: what is the 
+name of the 
+woodpecker in the 
+picture?
+Downy
+Here are eight images:
+The following image is:
+Multimodal Large Language Model (MLLM)
+Embeddingoutput
+Kosmos -1can perceive both language and , learn in context , reason, and generate
+Vision Audition
+31 8 ¡K 70 2
+A B C
+D E F
+Figure 1: KOSMOS -1is a multimodal large language model (MLLM) that is capable of perceiving
+multimodal input, following instructions, and performing in-context learning for not only language
+tasks but also multimodal tasks. In this work, we align vision with large language models (LLMs),
+advancing the trend of going from LLMs to MLLMs.
+Equal contribution. yCorresponding author.arXiv:2302.14045v1  [cs.CL]  27 Feb 2023Language Is Not All You Need: Aligning Perception
+with Language Models
+Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma
+Tengchao Lv, Lei Cui, Owais Khan Mohammed, Qiang Liu, Kriti Aggarwal, Zewen Chi
+Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Weiy
+Microsoft
+https://github.com/microsoft/unilm
+What's in this picture?
+Looks like a duck.
+That¡¦s not a duck. Then 
+what¡¦s it?
+Looks more like a 
+bunny.
+Why?
+It has bunny ears.Description of three toed 
+woodpecker: It has black 
+and white stripes 
+throughout the body and a 
+yellow crown.
+Description of downy 
+woodpecker: It has white 
+spots on its black wings 
+and some red on its crown.
+Question: what is the 
+name of the 
+woodpecker in the 
+picture?
+Downy
+Here are eight images:
+The following image is:
+Multimodal Large Language Model (MLLM)
+Embeddingoutput
+Kosmos -1can perceive both language and , learn in context , reason, and generate
+Vision Audition
+31 8 ¡K 70 2
+A B C
+D E F
+Figure 1: KOSMOS -1is a multimodal large language model (MLLM) that is capable of perceiving
+multimodal input, following instructions, and performing in-context learning for not only language
+tasks but also multimodal tasks. In this work, we align vision with large language models (LLMs),
+advancing the trend of going from LLMs to MLLMs.
+Equal contribution. yCorresponding author.arXiv:2302.14045v1  [cs.CL]  27 Feb 2023¡§The limits of my language means the limits of my world.
+Ludwig Wittgenstein¡¨
+Abstract
+A big convergence of language, multimodal perception, action, and world model-
+ing is a key step toward artiLanguage Is Not All You Need: Aligning Perception
+with Language Models
+Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma
+Tengchao Lv, Lei Cui, Owais Khan Mohammed, Qiang Liu, Kriti Aggarwal, Zewen Chi
+Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Weiy
+Microsoft
+https://github.com/microsoft/unilm
+What's in this picture?
+Looks like a duck.
+That¡¦s not a duck. Then 
+what¡¦s it?
+Looks more like a 
+bunny.
+Why?
+It has bunny ears.Description of three toed 
+woodpecker: It has black 
+and white stripes 
+throughout the body and a 
+yellow crown.
+Description of downy 
+woodpecker: It has white 
+spots on its black wings 
+and some red on its crown.
+Question: what is the 
+name of the 
+woodpecker in the 
+picture?
+Downy
+Here are eight images:
+The following image is:
+Multimodal Large Language Model (MLLM)
+Embeddingoutput
+Kosmos -1can perceive both language and , learn in context , reason, and generate
+Vision Audition
+31 8 ¡K 70 2
+A B C
+D E F
+Figure 1: KOSMOS -1is a multimodal large language model (MLLM) that is capable of perceiving
+multimodal input, following instructions, and performing in-context learning for not only language
+tasks but also multimodal tasks. In this work, we align vision with large language models (LLMs),
+advancing the trend of going from LLMs to MLLMs.
+Equal contribution. yCorresponding author.arXiv:2302.14045v1  [cs.CL]  27 Feb 2023¡§The limits of my language means the limits of my world.
+Ludwig Wittgenstein¡¨
+Abstract
+A big convergence of language, multimodal perception, action, and world model-
+ing is a key step toward artiLanguage Is Not All You Need: Aligning Perception
+with Language Models
+Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma
+Tengchao Lv, Lei Cui, Owais Khan Mohammed, Qiang Liu, Kriti Aggarwal, Zewen Chi
+Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Weiy
+Microsoft
+https://github.com/microsoft/unilm
+What's in this picture?
+Looks like a duck.
+That¡¦s not a duck. Then 
+what¡¦s it?
+Looks more like a 
+bunny.
+Why?
+It has bunny ears.Description of three toed 
+woodpecker: It has black 
+and white stripes 
+throughout the body and a 
+yellow crown.
+Description of downy 
+woodpecker: It has white 
+spots on its black wings 
+and some red on its crown.
+Question: what is the 
+name of the 
+woodpecker in the 
+picture?
+Downy
+Here are eight images:
+The following image is:
+Multimodal Large Language Model (MLLM)
+Embeddingoutput
+Kosmos -1can perceive both language and , learn in context , reason, and generate
+Vision Audition
+31 8 ¡K 70 2
+A B C
+D E F
+Figure 1: KOSMOS -1is a multimodal large language model (MLLM) that is capable of perceiving
+multimodal input, following instructions, and performing in-context learning for not only language
+tasks but also multimodal tasks. In this work, we align vision with large language models (LLMs),
+advancing the trend of going from LLMs to MLLMs.
+Equal contribution. yCorresponding author.arXiv:2302.14045v1  [cs.CL]  27 Feb 2023¡§The limits of my language means the limits of my world.
+Ludwig Wittgenstein¡¨
+Abstract
+A big convergence of language, multimodal perception, action, and world model-
+ing is a key step toward artiLanguage Is Not All You Need: Aligning Perception
+with Language Models
+Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma
+Tengchao Lv, Lei Cui, Owais Khan Mohammed, Qiang Liu, Kriti Aggarwal, Zewen Chi
+Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Weiy
+Microsoft
+https://github.com/microsoft/unilm
+What's in this picture?
+Looks like a duck.
+That¡¦s not a duck. Then 
+what¡¦s it?
+Looks more like a 
+bunny.
+Why?
+It has bunny ears.Description of three toed 
+woodpecker: It has black 
+and white stripes 
+throughout the body and a 
+yellow crown.
+Description of downy 
+woodpecker: It has white 
+spots on its black wings 
+and some red on its crown.
+Question: what is the 
+name of the 
+woodpecker in the 
+picture?
+Downy
+Here are eight images:
+The following image is:
+Multimodal Large Language Model (MLLM)
+Embeddingoutput
+Kosmos -1can perceive both language and , learn in context , reason, and generate
+Vision Audition
+31 8 ¡K 70 2
+A B C
+D E F
+Figure 1: KOSMOS -1is a multimodal large language model (MLLM) that is capable of perceiving
+multimodal input, following instructions, and performing in-context learning for not only language
+tasks but also multimodal tasks. In this work, we align vision with large language models (LLMs),
+advancing the trend of going from LLMs to MLLMs.
+Equal contribution. yCorresponding author.arXiv:2302.14045v1  [cs.CL]  27 Feb 2023¡§The limits of my language means the limits of my world.
+Ludwig Wittgenstein¡¨
+Abstract
+A big convergence of language, multimodal perception, action, and world model-
+ing is a key step toward artiLanguage Is Not All You Need: Aligning Perception
+with Language Models
+Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma
+Tengchao Lv, Lei Cui, Owais Khan Mohammed, Qiang Liu, Kriti Aggarwal, Zewen Chi
+Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Weiy
+Microsoft
+https://github.com/microsoft/unilm
+What's in this picture?
+Looks like a duck.
+That¡¦s not a duck. Then 
+what¡¦s it?
+Looks more like a 
+bunny.
+Why?
+It has bunny ears.Description of three toed 
+woodpecker: It has black 
+and white stripes 
+throughout the body and a 
+yellow crown.
+Description of downy 
+woodpecker: It has white 
+spots on its black wings 
+and some red on its crown.
+Question: what is the 
+name of the 
+woodpecker in the 
+picture?
+Downy
+Here are eight images:
+The following image is:
+Multimodal Large Language Model (MLLM)
+Embeddingoutput
+Kosmos -1can perceive both language and , learn in context , reason, and generate
+Vision Audition
+31 8 ¡K 70 2
+A B C
+D E F
+Figure 1: KOSMOS -1is a multimodal large language model (MLLM) that is capable of perceiving
+multimodal input, following instructions, and performing in-context learning for not only language
+tasks but also multimodal tasks. In this work, we align vision with large language models (LLMs),
+advancing the trend of going from LLMs to MLLMs.
+Equal contribution. yCorresponding author.arXiv:2302.14045v1  [cs.CL]  27 Feb 2023¡§The limits of my language means the limits of my world.
+Ludwig Wittgenstein¡¨
+Abstract
+A big convergence of language, multimodal perception, action, and world model-
+ing is a key step toward arti
