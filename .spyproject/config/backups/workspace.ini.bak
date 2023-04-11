@@ -3,13 +3,8 @@ restore_data_on_startup = True
 save_data_on_exit = True
 save_history = True
 save_non_project_files = False
-<<<<<<< HEAD
-project_type = 'empty-project-type'
-recent_files = ['C:\\Users\\ken3\\.spyder-py3\\temp.py', 'bernoulli_RV.py', 'PIDControl.py', 'GaussianFunction.py', 'SingularitySignals.py', 'LinearTimeInvariantSystem.py', 'convolution.py', 'SHA256.py']
-=======
 project_type = empty-project-type
-recent_files = ['README.md', 'PinskersInequality.py', 'PySCF_AbInitio_EnergyofH.py', 'GaussianShaped_FluorescenceEmissionSpectrum.py', 'temp.py', 'Statistics\\3_StatisticalInference\\FrequesntistInference_MaximumLikelihoodEstimation.py', 'Statistics\\3_StatisticalInference\\BaysianInference_MaximumAPosterioriEstimation.py', 'InformationTheory\\Entropy_Joint_Conditional_Mutual.py', 'convolution.py', 'LagrangeMultiplier.py', 'JacobianMatrix.py', 'KarushKuhnTuckerConditions.py', 'HessianMatrix.py', 'Raising_Lowering_Indices.py', 'Scalar_Vector_ValuedFunction.py', 'DivergenceTheorem.py', 'SingularitySignals.py', 'taichi_example_cornellBox.py', 'taichi_example_laplaceEquation.py', 'taichi_example_puple.py', 'LinearTimeInvariantSystem.py', 'Intergral.py', 'try.py', 'Anti-aliasingFilter.py']
->>>>>>> b6bc9b644ddd4d49bd9666cf56bf57fe0dc49149
+recent_files = ['README.md', 'SamplingIn_BandpassSystem.py', 'Multi-PathPhenomenon.py', 'Anti-Aliasing.py']
 
 [main]
 version = 0.2.0
